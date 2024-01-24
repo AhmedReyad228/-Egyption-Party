@@ -1,0 +1,172 @@
+/* ? >>>>>>>>>>>>>>  Customize  >>>>>>>>>>>>>> */
+
+:root {
+  --paragraph-color: #9f8182;
+  --montserrat-font: "Montserrat", sans-serif;
+  --poppins-font: "Poppins", sans-serif;
+  --sections-mb: 80px;
+  --main-lineHeight: 72px;
+  --btn-back: #1c1c1c;
+  --second-background: #f7f7f7;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  text-decoration: none !important;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+*::-webkit-scrollbar {
+  background-color: transparent;
+  width: 10px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #25292e;
+  border-radius: 10px;
+}
+
+/* ? >>>>>>>>>>>>>> End Customize  >>>>>>>>>>>>>> */
+
+/* ! >>>>>>>>>>>>>>  header  >>>>>>>>>>>>>> */
+
+header {
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0% 100%),
+    url("../images/back.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .desc {
+  color: #fff;
+  text-align: center;
+}
+header .desc h1 {
+  font-size: 80px;
+}
+
+/* ! >>>>>>>>>>>>>>  End header  >>>>>>>>>>>>>> */
+
+/* ? >>>>>>>>>>>>>>  Singer  >>>>>>>>>>>>>> */
+
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-block: 100px;
+}
+
+.all .singer h2 {
+  background-color: #e68184;
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.all .singer p {
+  background-color: #cccccc;
+  padding: 10px;
+}
+
+/* ? >>>>>>>>>>>>>> End Singer  >>>>>>>>>>>>>> */
+
+/* * >>>>>>>>>>>>>> Counter  >>>>>>>>>>>>>> */
+
+.counter {
+  height: 330px;
+  background-image: linear-gradient(rgba(214, 46, 51, 0.6) 0% 100%),
+    url("../images/invitation-2508607__340.jpg");
+  background-size: 100% 100%;
+  background-position: center center;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.counter .col-md-3 {
+  padding: 50px;
+  border: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* * >>>>>>>>>>>>>> End Counter  >>>>>>>>>>>>>> */
+
+/* ! >>>>>>>>>>>>>> aside  >>>>>>>>>>>>>> */
+
+.open{
+  width: 270px;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  top: 0;
+  left: -270;
+  color: #fff;
+  font-size: 25px;
+  transition: all 1s;
+}
+
+.open a{
+  color: #fff;
+}
+
+ul li {
+  padding-top: 30px;
+}
+
+.openIcon{
+  right: -90px;
+  top: 50%;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open .close{
+  position: absolute;
+  right: 20px;
+  top: 50px;
+  transition: all 1s;
+}
+
+
+/* ! >>>>>>>>>>>>>> aside  >>>>>>>>>>>>>> */
+
+
+/*  >>>>>>>>>>>>>> start contact  >>>>>>>>>>>>>> */
+
+#contact {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+#contact .links .link {
+  border: 1px solid #ccc;
+  padding: 7px;
+  width: fit-content;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#contact .links .link:hover {
+  background-color: brown;
+}
+#contact .links .link:hover i {
+  color: #fff !important;
+}
+
+#contact #counter {
+  font-size: 20px;
+}
+
+/*  >>>>>>>>>>>>>> start contact  >>>>>>>>>>>>>> */
